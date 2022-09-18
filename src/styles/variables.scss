@@ -1,0 +1,67 @@
+@import "~vuetify/src/styles/styles.sass";
+
+// @font-face {
+//   font-family: "VisbyRoundCF-Heavy";
+//   src: url("@/assets/fonts/VisbyRoundCF-Heavy.ttf") format("truetype");
+// }
+
+// @font-face {
+//   font-family: "VisbyRoundCF-Bold";
+//   src: url("@/assets/fonts/VisbyRoundCF-DemiBold.ttf") format("truetype");
+// }
+
+$body-font-family: "SF Pro Text";
+$title-font: "SF Pro Display";
+
+.v-application {
+  & .display-1,
+  .headline,
+  .title,
+  .subtitle-1,
+  .subtitle-2,
+  .body-1,
+  .body-2,
+  .caption {
+    font-family: $body-font-family, sans-serif !important;
+  }
+  font-family: $body-font-family, sans-serif !important;
+}
+
+.v-application code {
+  background-color: var(--v-surface-base) !important;
+}
+
+$border-radius-root: 16px;
+$skeleton-loader-border-radius: 8px;
+
+$rounded: (
+  "lg": $border-radius-root * 3,
+);
+
+$btn-font-weight: 600;
+$btn-text-transform: none;
+$btn-focus-opacity: 0.08;
+$btn-hover-opacity: 0.08;
+
+$list-elevation: 0;
+
+$menu-content-elevation: 24;
+
+$dialog-elevation: 0;
+
+$card-btn-padding: 0px;
+$card-actions-padding: 0px;
+$card-title-word-break: "keep-all";
+$card-link-focus-opacity: 0;
+
+// $container-max-widths: 1280px;
+
+// $container-max-widths: map-deep-merge(
+//   (
+//     // "md": map-get($grid-breakpoints, "md") * 0.9375,
+//     "md": 1280px,
+//     "lg": 1280px,
+//     "xl": 1280px
+//   ),
+//   $container-max-widths
+// );

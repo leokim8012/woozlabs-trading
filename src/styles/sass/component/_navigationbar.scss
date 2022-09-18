@@ -1,0 +1,12 @@
+.v-toolbar__content {
+  margin: auto;
+}
+.v-app-bar {
+  background: var(--v-background-base) !important;
+}
+.theme--light .v-app-bar--is-scrolled {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12) !important;
+}
+.theme--dark .v-app-bar--is-scrolled {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12) !important;
+}

@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "allowJs": true,
+    "noImplicitAny": false,
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "useDefineForClassFields": true,
+    "sourceMap": true,
+    "types": ["webpack-env", "vuetify"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "app/*": ["*"],
+      "components/*": ["src/components/*"],
+      "containers/*": ["src/containers/*"],
+      "views/*": ["src/views/*"],
+      "assets/*": ["src/assets/*"],
+      "types/*": ["src/types/*"],
+      "store/*": ["src/store/*"],
+      "utils/*": ["src/utils/*"],
+      "models/*": ["src/models/*"],
+      "plugins/*": ["src/plugins/*"],
+      "configs/*": ["./configs/*"],
+      "mixins/*": ["src/mixins/*"],
+      "api/*": ["src/api/*"]
+    },
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
+    "typeRoots": ["./node_modules/@types", "src/types"],
+    "resolveJsonModule": true
+  },
+  "include": [
+    "src/**/*.vue",
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "tests/**/*.ts",
+    "tests/**/*.d.ts",
+    "tests/**/*.tsx"
+  ],
+  "exclude": ["node_modules"]
+}

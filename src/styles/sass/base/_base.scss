@@ -1,0 +1,39 @@
+.word-break {
+  word-break: keep-all !important;
+}
+
+html {
+  word-break: keep-all !important;
+}
+
+.base-container {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.article-container {
+  max-width: 720px !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  pointer-events: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
+.side-panel {
+  position: sticky;
+  top: 64px;
+  position: -webkit-sticky;
+  position: sticky;
+  overflow-y: auto;
+  height: calc(100vh - 64px);
+  padding-top: 64px;
+}
