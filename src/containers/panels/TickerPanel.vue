@@ -11,7 +11,7 @@
 import { Component, Vue } from "vue-property-decorator";
 
 @Component
-export default class TestPanel extends Vue {}
+export default class TickerPanel extends Vue {}
 </script>
 
 <style></style>
